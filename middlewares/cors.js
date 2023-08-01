@@ -2,6 +2,11 @@ const allowedCors = [
   'https://localhost:3000',
   'http://localhost:3000',
   'localhost:3000',
+  'https://diploma.masha-muraveva.nomoreparties.co',
+  'http://diploma.masha-muraveva.nomoreparties.co',
+  'https://movies.masha-muraveva.nomoreparties.co',
+  'http://movies.masha-muraveva.nomoreparties.co',
+
 ];
 
 module.exports = (req, res, next) => {
